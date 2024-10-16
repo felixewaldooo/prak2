@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laporan Teori 1 Pemrograman Web Kelas D</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            font size: 12px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 70px 0;
+        }
+        
+        table,
+        th,
+        td {
+            border: 1px solid cyan;
+        }
+        
+        th,
+        td {
+            padding: 30px;
+            text-align: left;
+        }
+        
+        th {
+            background-color: whitesmoke
+        }
+        
+        h1,
+        h2,
+        h3 {
+            color: brown;
+        }
+        
+        .highlight {
+            background color: blue;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Laporan Teori 1 Pemrograman Web</h1>
+
+    <h1>Nama : Felix Ewaldo Panggabean</h1>
+    <h1>NIM : 202331084</h1>
+    <h1>Kelas : Pemrograman Web - D</h1>
+
+    <h2>Pertanyaan Seputar Tag</h2>
+
+    <h3>1. Apa yang dimaksud dengan tag pada HTML?</h3>
+    <p>Tag adalah sebuah komponen yang dimana dapat dipakai untuk menanda elemen pada pemrograman web</p>
+
+    <h3>2. Apa itu pembuka dan penutup tag ? Apakah hal tersebut terdapat pada semua jenis tag?</h3>
+    <p>Merupakan bagian dari elemen dalam bahasa pemrograman HTML (Hypertext Markup Language). Tidak semua jenis tag dalam HTML memiliki tag penutup. Tag berpasangan: Memiliki tag pembuka dan penutup.</p>
+
+    <h2>Pertanyaan Seputar Elemen</h2>
+
+    <h3>1. Apa yang dimaksud dengan elemen ?</h3>
+    <p>Elemen adalah : bagian dasar dari struktur dokumen web. Elemen terdiri dari tag pembuka, konten (opsional), dan tag penutup (untuk elemen berpasangan). Setiap elemen memiliki tujuan tertentu untuk menentukan bagaimana konten di dalamnya ditampilkan
+        atau berfungsi.</p>
+
+    <h3>2. Apa yang dimaksud dengan tagname, attribute, dan content pada elemen ?</h3>
+    <p>Tagname adalah nama elemen HTML yang mendefinisikan jenis elemen tersebut. Nama ini terletak di dalam tag pembuka dan penutup. Nama tag memberitahu browser tentang fungsi dari elemen tersebut, misalnya apakah itu paragraf, gambar, atau tautan.</p>
+    <p>Attribute adalah informasi tambahan yang ditempatkan di dalam tag pembuka untuk memberikan informasi lebih lanjut atau menentukan bagaimana elemen tersebut berperilaku.</p>
+    <p>Content adalah teks, gambar, atau elemen lain yang berada di antara tag pembuka dan penutup. Konten ini adalah apa yang ditampilkan kepada pengguna di dalam elemen tersebut. Tidak semua elemen memiliki konten (seperti elemen self-closing), tetapi
+        elemen-elemen seperti paragraf, heading, dan tautan biasanya memiliki konten.</p>
+
+    <h3>3. Apakah elemen dapat dibentuk ? Apa yang terjadi bila demikian ?</h3>
+    <p>Ya, elemen HTML dapat dibentuk atau diletakkan di dalam elemen lain. Ini dikenal sebagai nesting (penumpukan) elemen. Saat elemen HTML disarangkan satu sama lain, biasanya elemen yang ada di dalam disebut child element (elemen anak), dan elemen yang
+        melingkupinya disebut parent element (elemen induk). Dengan menyarangkan elemen-elemen ini, kita dapat membentuk struktur dokumen yang lebih kompleks dan terorganisir.</p>
+
+    <h2>Pertanyaan Seputar Anchor</h2>
+    <h3>1. Apa yang dimaksud dengan Anchor ?</h3>
+    <p>Anchor dalam HTML merujuk pada elemen <a>, yang digunakan untuk membuat tautan atau hyperlink. Tautan ini memungkinkan pengguna untuk berpindah dari satu halaman web ke halaman lain, atau dari satu bagian halaman ke bagian lain, baik di dalam situs yang sama maupun ke situs lain. Dengan kata lain, anchor adalah elemen yang digunakan untuk menautkan dokumen HTML ke sumber eksternal atau bagian internal.</p>
+        
+        <h3>2. Bagaimana caranya anchor dapat berfungsi ?</h3>
+        <p>Agar elemen anchor berfungsi dan bisa membuat tautan yang dapat diklik, Anda harus memberikan atribut dan nilai yang sesuai.</p>
+
+        <h2>Pertanyaan Seputar Multimedia</h2>
+
+        <h3>A.Text</h3>
+        <ol>
+        <li>1. Sebutkan tag yang dapat digunakan untuk memanipulasi konten teks pada HTML, serta jelaskan fungsinya !</li>
+        <p>tag p untuk paragraf, tag br untuk break baris, tag b untuk penebalan, dll sebagainya.</p>
+        <br>
+        <li>2. Sebutkan tag yang dapat digunakan untuk menanipulasi struktur konten teks pada HTML !</li>
+        <p>h1 s.d h6 untuk penjudulan, p untuk paragraf, ul dan ol untuk list, dll sebagainya</p>
+        </ol>
+
+        <h3>B. Image</h3>
+        <ol>
+            <li>3. Apabila sebuah tag image tidak menampilkan gambar sebagaimana seharusnya, apa saja yang mungkin menyebabkan hal tersebut ?</li>
+            <p>Masalah ini berkaitan dengan kesalahan dalam penulisan atau masalah teknis pada sumber gambar.</p>
+            <li>4. Apabila ternyata ada teks yang menggantikan gambar tersebut, apa yang sebenarnya terjadi ? Jelaskan !</li>
+            <p>Ketika gambar tidak dapat ditampilkan di halaman web, dan terdapat teks yang menggantikannya, teks tersebut berasal dari atribut alt (alternative text) pada tag img. Atribut ini dirancang untuk memberikan informasi alternatif tentang gambar ketika gambar tersebut tidak dapat dimuat atau ditampilkan.</p>
+        </ol>
+
+        <h3>C. Audio</h3>
+        <ol>
+            <li>5. Bagaimana caranya untuk kita dapat memasukkan audio source dari web (non-lokal) ? Jelaskan !</li>
+            <p>Untuk memasukkan audio source dari web (non-lokal) ke dalam halaman HTML, Anda dapat menggunakan tag audio, yang merupakan elemen HTML untuk memutar audio.</p>
+        </ol>
+
+        <h3>D. Video</h3>
+        <ol>
+            <li>6. Apa yang biasanya terjadi apabila atribut autoplay pada tag video tidak berjalan? Apa yang anda harus lakukan sehingga atribut tersebut dapat berfungsi dengan semestinya ?</li>
+            <p>Yang terjadi apabila atribut autoplay tidak berjalan yakni : tag yang tidak benar, format video yang tidak didukung dan koneksi internet yang lambat. yang harus anda lakukan yakni : memeriksa jaringan, periksa format video dan gunakan tag yang benar</p>
+
+        </ol>
+
+</body>
+
+</html>
